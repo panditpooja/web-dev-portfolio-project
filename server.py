@@ -32,9 +32,6 @@ def write_to_csv(data):
 @app.route('/submit_form', methods=['POST', 'GET']) #GET means the browser wants us to set information and use it in the url and POST means that the browser wants us to save information.
 def submit_form():
     if request.method == 'POST':
-        # subject = request.form['subject']
-        # email = request.form['email']
-        # message = request.form['message']
         # To fetch data in the form of dictionary
         try:
             data = request.form.to_dict()
