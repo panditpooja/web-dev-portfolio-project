@@ -9,19 +9,11 @@ def home():
 
 @app.route('/<path:subpath>')
 def html_page(subpath):
-    return render_template(subpath)
-
-#Write the user data to text file
-def write_to_file(data):
-    with open('.venv/db_file.txt',mode='a') as database:
-        email=data["email"]        
-        subject=data['subject']
-        message= data['message']
-        file = database.write(f'\n{email} , {subject} , {message}')      
+    return render_template(subpath)  
 
 #Write the user data to csv file
 def write_to_csv(data):
-    with open('.venv/db_file.csv',mode='a', newline='') as csvfile:
+    with open('db_file.csv',mode='a', newline='') as csvfile:
         email=data["email"]        
         subject=data['subject']
         message= data['message']
