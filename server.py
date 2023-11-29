@@ -20,7 +20,7 @@ def write_to_csv(data):
         writer = csv.writer(csvfile)
         writer.writerow([email, subject, message])
 
-#On click of send button on contact form page
+#On submitting contact form
 @app.route('/submit_form', methods=['POST', 'GET']) 
 def submit_form():
     if request.method == 'POST':
