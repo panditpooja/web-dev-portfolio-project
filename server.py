@@ -21,10 +21,9 @@ def write_to_csv(data):
         writer.writerow([email, subject, message])
 
 #On click of send button on contact form page
-@app.route('/submit_form', methods=['POST', 'GET']) #GET means the browser wants us to set information and use it in the url and POST means that the browser wants us to save information.
+@app.route('/submit_form', methods=['POST', 'GET']) 
 def submit_form():
     if request.method == 'POST':
-        # To fetch data in the form of dictionary
         try:
             data = request.form.to_dict()
             write_to_csv(data)
