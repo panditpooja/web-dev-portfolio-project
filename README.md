@@ -1,7 +1,7 @@
 # Portfolio Portal: A FLASK Web Application (Python)
 ## Explore your professional journey with ease through this FLASK-based Portfolio Portal, a dynamic web application powered by Python. Showcase your skills, projects, and achievements effortlessly.
 
-This is my first self hosted web application.  This website helped me learn how to build FLASK web application using python.
+This is my first self hosted web application built from scratch.  This website helped me learn how to build FLASK web application using python.
 ## Skills Developed During Implementation:
 - Learned and applied Python skills for web application development, initially on the local machine.
 - Understood the application of Python Flask as a server to deploy the website online.
