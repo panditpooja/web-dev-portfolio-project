@@ -13,3 +13,12 @@ Flask, Python, HTML5, CSS3, JavaScript
 Sublime Text, Anaconda Prompt (For running Flask server)
 ## Skills Developed: 
 Python (Programming Language), Web Application Development, JavaScript, Git, Cascading Style Sheets (CSS), Flask, HTML5
+
+## ✍️ Author
+
+**Pooja Pandit**  
+Master’s Student in Information Science (Machine Learning)  
+The University of Arizona  
+
+[![GitHub](https://img.shields.io/badge/GitHub-panditpooja-black?logo=github)](https://github.com/panditpooja)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-pooja--pandit-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pooja-pandit-177978135/)  
